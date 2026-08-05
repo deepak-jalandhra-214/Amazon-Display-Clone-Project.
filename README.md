@@ -1,1 +1,1 @@
-# -Amazon-Display-Clone-Project.
+# Amazon-Display-Clone-Project.
