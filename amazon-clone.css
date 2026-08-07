@@ -9,6 +9,7 @@
     background-color:#0f1111 ;
     color:white;
     display:flex;
+    justify-content: space-evenly;
     
     
 }
@@ -47,12 +48,12 @@ border{
 .nav-address:hover{
     border:1px solid white;
 }
-.nav-icon{
-    font-size:18px;
+.nav-address .nav-icon{
+    font-size:14px;
     display:flex;
      position: relative;
     top:5px;
-    left:0px;
+    left:4px;
     gap:5px;
     font-weight: bold;
     color:white
@@ -61,27 +62,114 @@ border{
     display:flex;
     justify-content: space-evenly;
     height: 40px;
-    width: 620px;
-    background-color: rgb(160, 50, 50);
+    width: 720px;
+    background-color:#febd68;
     border-radius: 4px;
     position: relative;
     top:8px;
 }
-.search-select{
+.nav-search .search-select{
     background-color: #e6e6e6;
     width:50px;
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px;
     border:none;
     text-align: center;
-    margin:1px;
-    padding:0px 0px 0px 5px;
 }
-.search-input{
+.nav-search .search-input{
     border:none;
     width:100%;
     font-size: 15px;
+    position: relative;
 }
-.nav-icon{
-    width:45px;
+.nav-search .nav-icon{
+    width:50px;
+    position:relative;
+    left:11px;
+    top:7px;
+    font-size: 23px;
+    color: #0f1111;
+}
+.nav-language{
+   display:flex;
+   border:1px solid transparent;
+   height:40;
+   width:70;
+   margin:1px;
+   padding:18px 2px 5px 7px;
+   gap:4px;
+   background-color: #0f1111;
+   color:#e6e6e6
+}
+.nav-language:hover{
+    border:1px solid white;
+}
+.nav-language .nav-icon {
+      color:rgb(243, 215, 215)
+}
+.nav-language .nav-option select{
+    background-color: #0f1111;
+    color:azure;
+    font-style:inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:590;
+}
+.nav-language .nav-option select option{
+    background-color: #0f1111;
+    color: azure;
+}
+.nav-signin{
+    border:1px solid transparent;
+    height:40;
+    width:115;
+    margin:0px 1px;
+    padding:8px 4px 8px 9px;
+}
+.nav-signin:hover{
+    border:1px solid rgb(240, 240, 240);
+}
+.nav-signin p span{
+    font-size:11px
+}
+.nav-signin .account{
+     font-size: 15px;
+     font-weight: bold;
+}
+.nav-orders{
+    border:1px solid transparent;
+    height:40;
+    width:70;
+    padding:8px 9px 10px 0px;
+}
+.nav-orders:hover{
+     border:1px solid white;
+}
+.nav-orders p span{
+    font-size: 11px;
+}
+.nav-orders .orders{
+    font-size: 15px;
+    font-weight:bold;
+}
+.nav-cart-icon{
+    color:#f0f0f0;
+    height:40px;
+    width:65px;
+    border:1px solid transparent;
+    padding:6px 9px 11px;
+    font-size: 33px;
+    display: flex;
+}
+.nav-cart-icon:hover{
+    border:1px solid white;
+}
+.nav-cart-icon i{
+    position: relative;
+    top:5px
+}
+.nav-cart-icon .cart{
+    font-size: 15px;
+    position: relative;
+    top:23px;
+    font-weight: bold;
 }
