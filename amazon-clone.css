@@ -14,7 +14,7 @@
     
 }
 .nav-logo{
-    height:50px;
+    height:60px;
     width:100px;
 
 }
@@ -27,7 +27,7 @@
     position:relative;
     top:12px;       
 }
-border{
+.border{
     border:1px solid transparent;
 }
 .border:hover{
@@ -35,14 +35,10 @@ border{
 }
 .nav-address{
     border:1px solid transparent;
-    height:40px;
+    height:43px;
     width:80px;
-    margin:5px 2px 5px 0px;
-    padding:0px 15px;
+    padding:8px 15px;
     font-size:12px;
-    position: relative;
-    top:5px;
-    bottom: 3px;
     color:#cccc;
 }
 .nav-address:hover{
@@ -173,3 +169,121 @@ border{
     top:23px;
     font-weight: bold;
 }
+.nav-menu{
+    height:39px;
+    background-color:#233f3f;
+    display:flex;
+    color:white;
+    gap:3px;
+}
+.menu-bar{
+    height: 38px;
+    width:42px;
+    display:flex;
+    gap:5px;
+    border:1px solid transparent;
+    padding:8px 9px;
+    
+}
+.menu-bar:hover{
+    border:1px solid white;
+}
+.menu-bar i{
+    font-size: 23px;
+}
+.menu-ALL{
+    font-size: 13px;
+    font-weight:bolder;
+    position:relative;
+    top:5px;
+}
+.menu-deal{
+    border:1px solid transparent;
+    height:39;
+    width:100px;
+    padding:10px 5px ;
+    font-size:14px;
+    font-weight: bold;
+}
+.menu-deal:hover{
+    border:1px solid white;
+}
+.menu-prime-video{
+    height:39px;
+    width:90px;
+    border:1px solid  transparent;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 5px;
+}
+.menu-prime-video:hover{
+    border:1px solid white;
+}
+.menu-gift-card{
+    height:39px;
+    width:73px;
+    border:1px solid transparent;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 5px;
+}
+.menu-gift-card:hover{
+    border:1px solid white;
+}
+.menu-sell{
+    height:39;
+    width:32px;
+    border:1px solid transparent;
+    font-size: 14px;
+    font-weight: bold;
+    padding:10px 5px;
+}
+.menu-sell:hover{
+    border:1px solid white;
+}
+.menu-customer-service{
+    height:39px;
+    width:120px;
+    border:1px solid transparent;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 5px;
+}
+.menu-customer-service:hover{
+    border:1px solid white;
+}
+.menu-registry{
+    height:39px;
+    width:70px;
+    border:1px solid transparent;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px 5px
+}
+.menu-registry:hover{
+    border:1px solid white;
+}
+.menu-shop{
+    height: 39px;
+    width:175px;
+    border:1px solid transparent;
+    font-size:14px;
+    font-weight: bold;
+    padding:10px 5px ;
+    margin-left: auto;
+}
+.menu-shop:hover{
+    border:1px solid white;
+}
+/*  her0 section */
+
+.hero-section{
+    background-image: url(/product-images/hero_image.jpg);
+    background-size: cover;
+    height:600px;
+    width:1500px;
+}
+
+
+
+
