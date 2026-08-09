@@ -367,27 +367,66 @@ body{
     top:50px
 }
 .footer3{
-    height: 70px;
-    background-color: #232f3e;
+    min-height: 90px;
+    background-color: #233448;
     color: white;
     display: flex;
     justify-content: center;
-    align-items:center ;
-    border-top:0.0001px solid white;
+    align-items: center;
+    padding: 16px 36px;
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
 .footer-logo{
-    background-image: url("product-images/amazon-logo.png");
+    background-image: url("product-images/footer-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height:50px;
-    width:100px
+    background-position: center;
+    height: 50px;
+    width: 110px;
+    position: relative;
+    top:5px;
+    right:60px;
+    gap:10px
 }
-
-
-
-
-
-
-
-
+.footer3 select{
+    width: 170px;
+    height: 40px;
+    border: 1px solid rgba(255,255,255,0.24);
+    border-radius: 6px;
+    background-color: #1d2b3a;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 0.95rem;
+}
+.footer3 select:active{
+    outline: 1px solid #c4bcb3;
+}
+.footer3 option{
+    color: #000000;
+}
+.INR{
+    position: relative;
+    left:18px;
+}
+.us{
+    position: relative;
+    left:36px
+}
+.copyright{
+    height:78px;
+    background-color: #131a22;
+    color:#dddddd;
+    font-size: 12px ;
+    font-weight: 700;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    padding-top:17px
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+}
 
