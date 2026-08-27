@@ -281,7 +281,7 @@ body{
 /*  her0 section */
 
 .hero-section{
-    background-image: url("/product-images/hero_image.jpg");
+    background-image: url("product-images/hero_image.jpg");
     background-size: cover;
     height:290px;
     display: flex;
